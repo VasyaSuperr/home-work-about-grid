@@ -113,3 +113,24 @@ body {
 .graph-1 {
   width: 100%;
 }
+
+.section-count-trusted {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.bolder-text {
+  font-weight: bolder;
+}
+
+.who-tusted {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1300px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
