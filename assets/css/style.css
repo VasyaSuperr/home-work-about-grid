@@ -230,3 +230,117 @@ body {
   border-radius: 5px;
   padding: 10px 20px;
 }
+
+.section-love-working {
+  padding: 50px 0;
+}
+
+.h2-in-section-love-working {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bolder;
+  max-width: 450px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.p-in-section-love-working {
+  text-align: center;
+  line-height: 1.8rem;
+  max-width: 500px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.user-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.user-card {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-card:hover {
+  background-color: #c9c9c9;
+  border-top: 5px solid black;
+}
+
+.text-in-user-card {
+  padding: 0 20px;
+}
+
+.name-user {
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.retreats-in-small-insert {
+  padding: 20px;
+}
+
+.small-insert {
+  background-color: #794cff;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  gap: 20px;
+  padding: 50px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.p-in-small-insert {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bolder;
+  max-width: 450px;
+  margin-right: auto;
+}
+
+.footer-section {
+  background-color: #1d2830;
+  color: #ffffff;
+}
+
+.all-footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.section-in-footer-about-something {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.last-section-in-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  border-top: 1px solid darkgrey;
+}
+
+.section-in-footer-about-something p {
+  font-weight: bolder;
+}
+
+.last-section-in-footer a {
+  background-color: #35414b;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+}
