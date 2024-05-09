@@ -144,12 +144,8 @@ body {
 }
 
 .img-chat {
-  max-width: 50%;
-  max-height: 50%;
-  padding-left: 50px;
-}
-
-.section-chat-all-text {
+  max-width: 60%;
+  max-height: 60%;
   padding: 0 50px;
 }
 
@@ -201,4 +197,36 @@ body {
 
 .img-in-sect-work-easier {
   padding-bottom: 30px;
+}
+
+.section-how-work-everyday {
+  background-color: #fbfafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.all-text-in-section-work-everyday {
+  max-width: 420px;
+  padding: 10px;
+}
+
+.h2-in-section-work-everyday {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bolder;
+}
+
+.p-in-section-work-everyday {
+  line-height: 1.5rem;
+  padding: 30px 0;
+}
+
+.btn-in-section-work-everyday {
+  background-color: #794cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
