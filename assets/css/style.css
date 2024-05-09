@@ -340,3 +340,26 @@ body {
   padding: 10px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1230px) {
+  .top-menu {
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-menu a + a {
+    display: none;
+  }
+
+  .architects-in-header {
+    display: none;
+  }
+
+  .section-photo {
+    width: 100%;
+  }
+
+  .user-card {
+    width: 100%;
+  }
+}
