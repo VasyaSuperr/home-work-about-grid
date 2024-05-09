@@ -150,8 +150,6 @@ body {
 }
 
 .section-chat-section-text {
-  min-width: 320px;
-  max-width: 350px;
   padding: 20px;
 }
 
@@ -190,8 +188,6 @@ body {
 }
 
 .section-point {
-  max-width: 300px;
-  min-width: 250px;
   width: 100%;
 }
 
