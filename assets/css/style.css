@@ -125,7 +125,7 @@ body {
 
 .who-tusted {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
   gap: 20px;
@@ -155,7 +155,7 @@ body {
 
 .section-chat-section-text:hover {
   background-color: #f6f3fc;
-  border-left: 5px solid #794cff;
+  box-shadow: -5px 0 0 #794cff;
 }
 
 .h3-in-section {
@@ -169,7 +169,10 @@ body {
 }
 
 .section-make-work-easier {
-  padding: 100px;
+  padding: 100px 20px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .section-for-points-in-work-easier {
@@ -265,7 +268,7 @@ body {
 
 .user-card:hover {
   background-color: #c9c9c9;
-  border-top: 5px solid black;
+  box-shadow: 0 -5px 0 black;
 }
 
 .text-in-user-card {
@@ -334,10 +337,20 @@ body {
   font-weight: bolder;
 }
 
+.all-a-in-footer-section {
+  display: flex;
+  gap: 10px;
+}
+
 .last-section-in-footer a {
   background-color: #35414b;
   color: #ffffff;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
