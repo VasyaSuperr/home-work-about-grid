@@ -36,6 +36,10 @@ body {
   font-size: 1.5rem;
 }
 
+.bars-in-top-menu {
+  display: none;
+}
+
 .link-get-started-free {
   background-color: #ece5ff;
   color: #794cff;
@@ -245,6 +249,10 @@ body {
   padding: 10px 20px;
 }
 
+.img-work-everyday {
+  width: 100%;
+}
+
 .section-love-working {
   padding: 50px 0;
 }
@@ -352,6 +360,7 @@ body {
 .last-section-in-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1300px;
   width: 100%;
   gap: 20px;
@@ -360,6 +369,11 @@ body {
 
 .section-in-footer-about-something p {
   font-weight: bolder;
+}
+
+.hide-bottom {
+  font-size: 0;
+  padding: 0;
 }
 
 .all-a-in-footer-section {
@@ -380,25 +394,136 @@ body {
 }
 
 @media screen and (max-width: 1210px) {
-  body {
-    font-size: 14px;
+  .hide-link {
+    display: none;
+  }
+
+  .top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 30px;
+  }
+
+  .company-logo {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .bars-in-top-menu {
+    color: #35414b;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .font-size-bars {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+
+  .img-chat {
+    width: 60%;
+  }
+
+  .all-text-in-section-work-everyday {
+    min-width: 350px;
+  }
+
+  .img-work-everyday {
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .top-menu a + a {
-    display: none;
-  }
-
-  .architects-in-header {
-    display: none;
-  }
-
-  .section-photo {
+@media screen and (max-width: 935px) {
+  .img-chat {
     width: 100%;
   }
 
-  .user-card {
+  .div-fixed-section-in-chat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-chat-section-text {
+    text-align: center;
+  }
+
+  .section-chat-section-text:hover {
+    background-color: #f6f3fc;
+    box-shadow: 0 5px 0 #794cff;
+  }
+
+  .section-for-points-in-work-easier {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .div-fixed-section-work-everyday {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .all-text-in-section-work-everyday {
+    max-width: 100%;
+  }
+
+  .img-work-everyday {
     width: 100%;
+  }
+
+  .user-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .small-insert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .p-in-small-insert {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hide-almost-all a {
+    display: none;
+  }
+
+  .all-footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: self-start;
+  }
+
+  .hide-bottom {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .same-properties-img {
+    width: 100%;
+  }
+
+  .section-for-points-in-work-easier {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .all-a-in-footer-section {
+    display: none;
   }
 }
